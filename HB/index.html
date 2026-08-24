@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>С Днём Рождения! 🎂</title>
+
+    <!-- Подключаем стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Шарики на фоне -->
+    <div class="balloon balloon1">🎈</div>
+    <div class="balloon balloon2">🎈</div>
+    <div class="balloon balloon3">🎈</div>
+    <div class="balloon balloon4">🎈</div>
+
+    <!-- Главная страница -->
+    <main class="main">
+
+        <div class="birthday-card">
+
+            <div class="cake">🎂</div>
+
+            <h1>Happy birthday, my love 🎉</h1>
+
+            <p class="subtitle">
+                Я тебя ооооочень сильно сильно люблю ✨<br>
+                 💖
+            </p>
+
+            <!-- Кнопки -->
+            <div class="buttons">
+
+                <button onclick="openPhotos()">
+                    📸 Наши фотографии
+                </button>
+
+                <button onclick="openWishes()">
+                    💌 Пожелания для тебя
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ========================= -->
+    <!-- ОКНО С ФОТОГРАФИЯМИ -->
+    <!-- ========================= -->
+
+    <div id="photoModal" class="modal">
+
+        <div class="modal-content photos-content">
+
+            <!-- Кнопка закрытия -->
+            <span class="close" onclick="closePhotos()">&times;</span>
+
+            <h2>📸 МЫЫЫ</h2>
+
+            <div class="photo-gallery">
+
+                <img src="images/photo1.jpeg" alt="Наше фото">
+
+                <img src="images/photo1.2.jpeg" alt="Наше фото">
+
+                <img src="images/photo2.3.jpeg" alt="Наше фото">
+
+                <img src="images/photo2.jpeg" alt="Наше фото">
+
+                <img src="images/photo3.jpeg" alt="Наше фото">
+
+                <img src="images/photo3.2.jpeg" alt="Наше фото">
+
+                <img src="images/photo4.jpeg" alt="Наше фото">
+
+                <img src="images/photo4.2.jpeg" alt="Наше фото">
+
+                <img src="images/photo5.jpeg" alt="Наше фото">
+
+                <img src="images/photo6.jpeg" alt="Наше фото">
+
+                <p class="more-text">И впереди ещё многоооо счастливых моментов вместе ❤️✨</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- ОКНО С ПОЖЕЛАНИЯМИ -->
+    <!-- ========================= -->
+
+    <div id="wishesModal" class="modal">
+
+        <div class="modal-content wishes-content">
+
+            <!-- Кнопка закрытия -->
+            <span class="close" onclick="closeWishes()">&times;</span>
+
+            <h2>💌 Самые тёплые пожелания</h2>
+
+            <div class="wish-text">
+
+                <p>
+                    🎉 Спасибо тебе большое за все что ты делаешь
+                    В первую очередь спасибо за то что ты у меня есть🤗
+                </p>
+
+                <p>
+                    ✨ Я знаю как сильно ты стараешься и часто устаешь, просто знай
+                    что я в тебя всегда верю и очень сильно тобой горжусь! 
+                    Пусть все о чем ты мечтаешь сбудется самым лучшим образом для тебя
+                    
+                </p>
+
+                <p>
+                    💖 Ты очень много значишь для меня. Ты делаешь серые дни самыми яркими
+                    Лучше тебя вообще никого нет. Ты самый умный
+                    самый веселый и милый. 💖💖💖
+                    
+                </p>
+
+                <p>
+                    🌸 Что бы ни случилось, я обещаю всегда быть рядом с тобой. 
+                    Ты единственный кому я могу доверить все свои мысли и секреты.
+                    Спасибо что делаешь меня самой счастливой и любимой💕 
+                    Ты - мой самый дорогой человек. Только ты поднимаешь мне настроение 
+                    своим присутвием. 
+                    Я не могу описать словами то как сильно я тебя люблю и как много
+                    ты значишь для меня. 💝
+                    
+                </p>
+
+                <p class="final-wish">
+                    С Днём Рождения Жаным! 🎊💖
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Подключаем JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
